@@ -41,7 +41,7 @@ while running:
 	while user_answer not in ("yes", "no", "Yes", "No"):
 		user_answer = input ("Enter yes or no ")
 	user_answer.lower()
-	if user_answer == "no":
+	if user_answer in ("no", "No"):
 		print ("Thank you, good luck")
 		break
 
